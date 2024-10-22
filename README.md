@@ -1,4 +1,4 @@
-<h1 align="center">✨ Project Showcase: GreenKart Web Automation Framework ✨</h1>
+<h1 align="center">✨ Project Showcase: GreenKart Web Automation ✨</h1>
 
 <p align="center">
   <em>I'm excited to share my latest project: a robust Web Automation Framework built using Selenium and Java!</em><br>
