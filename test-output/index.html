@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 5 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-GreenKartTesting" class="navigator-link">
+              <span class="suite-name border-failed">GreenKartTesting</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-GreenKartTesting" class="navigator-link ">
+                    <span>D:\All Desktop folders\Git Push\GreenKartAutomation\TestNG_Runner_XML\GreenKartFunctionalTesting.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-GreenKartTesting" class="navigator-link ">
+                    <span class="test-stats">4 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-GreenKartTesting" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-GreenKartTesting" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-GreenKartTesting" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-GreenKartTesting" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-GreenKartTesting" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">18 methods, 5 failed,   13 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-GreenKartTesting" class="hide-methods failed suite-GreenKartTesting"> (hide)</a> <!-- hide-methods failed suite-GreenKartTesting -->
+                      <a href="#" panel-name="suite-GreenKartTesting" class="show-methods failed suite-GreenKartTesting"> (show)</a> <!-- show-methods failed suite-GreenKartTesting -->
+                    </span>
+                    <div class="method-list-content failed suite-GreenKartTesting">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GreenKartTesting" title="org.GreenKartAutomation.TestClasses.TopDealsTests" class="method navigator-link" hash-for-method="Discounting">Discounting</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GreenKartTesting" title="org.GreenKartAutomation.TestClasses.AddToCartTests" class="method navigator-link" hash-for-method="EmptyCartCheckout">EmptyCartCheckout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GreenKartTesting" title="org.GreenKartAutomation.TestClasses.PurchaseOrderTests" class="method navigator-link" hash-for-method="EmptyCartPurchase">EmptyCartPurchase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GreenKartTesting" title="org.GreenKartAutomation.TestClasses.PurchaseOrderTests" class="method navigator-link" hash-for-method="PurchaseWithoutCountry">PurchaseWithoutCountry</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GreenKartTesting" title="org.GreenKartAutomation.TestClasses.AddToCartTests" class="method navigator-link" hash-for-method="RefreshCart">RefreshCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-GreenKartTesting -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-GreenKartTesting" class="hide-methods passed suite-GreenKartTesting"> (hide)</a> <!-- hide-methods passed suite-GreenKartTesting -->
+                      <a href="#" panel-name="suite-GreenKartTesting" class="show-methods passed suite-GreenKartTesting"> (show)</a> <!-- show-methods passed suite-GreenKartTesting -->
+                    </span>
+                    <div class="method-list-content passed suite-GreenKartTesting">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GreenKartTesting" title="org.GreenKartAutomation.TestClasses.AddToCartTests" class="method navigator-link" hash-for-method="AddingToCart">AddingToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GreenKartTesting" title="org.GreenKartAutomation.TestClasses.PurchaseOrderTests" class="method navigator-link" hash-for-method="AutoReturnHome">AutoReturnHome</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GreenKartTesting" title="org.GreenKartAutomation.TestClasses.AddToCartTests" class="method navigator-link" hash-for-method="EmptyCartText">EmptyCartText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GreenKartTesting" title="org.GreenKartAutomation.TestClasses.PromoCodeTests" class="method navigator-link" hash-for-method="EmptyPromoCodeDiscount">EmptyPromoCodeDiscount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GreenKartTesting" title="org.GreenKartAutomation.TestClasses.PromoCodeTests" class="method navigator-link" hash-for-method="EmptyStringPromoCode">EmptyStringPromoCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GreenKartTesting" title="org.GreenKartAutomation.TestClasses.AddToCartTests" class="method navigator-link" hash-for-method="FooterText">FooterText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GreenKartTesting" title="org.GreenKartAutomation.TestClasses.PromoCodeTests" class="method navigator-link" hash-for-method="InvalidPromoCodeDiscount">InvalidPromoCodeDiscount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GreenKartTesting" title="org.GreenKartAutomation.TestClasses.AddToCartTests" class="method navigator-link" hash-for-method="ItemCount">ItemCount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GreenKartTesting" title="org.GreenKartAutomation.TestClasses.TopDealsTests" class="method navigator-link" hash-for-method="PageSize">PageSize</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GreenKartTesting" title="org.GreenKartAutomation.TestClasses.AddToCartTests" class="method navigator-link" hash-for-method="PageTitle">PageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GreenKartTesting" title="org.GreenKartAutomation.TestClasses.PurchaseOrderTests" class="method navigator-link" hash-for-method="PositivePurchase">PositivePurchase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GreenKartTesting" title="org.GreenKartAutomation.TestClasses.PurchaseOrderTests" class="method navigator-link" hash-for-method="PurchaseWithoutTermCondition">PurchaseWithoutTermCondition</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GreenKartTesting" title="org.GreenKartAutomation.TestClasses.PromoCodeTests" class="method navigator-link" hash-for-method="ValidPromoCodeDiscount">ValidPromoCodeDiscount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-GreenKartTesting -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-GreenKartTesting" class="panel GreenKartTesting">
+          <div class="suite-GreenKartTesting-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">org.GreenKartAutomation.TestClasses.TopDealsTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Discounting">
+                  </a> <!-- Discounting -->
+                  <span class="method-name">Discounting</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	Rice have discounting issue... expected [true] but found [false],
+	Brinjal have discounting issue... expected [true] but found [false]
+	at org.GreenKartAutomation.TestClasses.TopDealsTests.Discounting(TopDealsTests.java:24)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test to verify actual price is less then discount price)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-GreenKartTesting-class-failed -->
+          <div class="suite-GreenKartTesting-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">org.GreenKartAutomation.TestClasses.AddToCartTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="EmptyCartCheckout">
+                  </a> <!-- EmptyCartCheckout -->
+                  <span class="method-name">EmptyCartCheckout</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at org.GreenKartAutomation.TestClasses.AddToCartTests.EmptyCartCheckout(AddToCartTests.java:30)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test to verify emtpy order)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RefreshCart">
+                  </a> <!-- RefreshCart -->
+                  <span class="method-name">RefreshCart</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [4] but found [0]
+	at org.GreenKartAutomation.TestClasses.AddToCartTests.RefreshCart(AddToCartTests.java:46)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test to verify cart items on page refresh)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-GreenKartTesting-class-failed -->
+          <div class="suite-GreenKartTesting-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">org.GreenKartAutomation.TestClasses.PurchaseOrderTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="EmptyCartPurchase">
+                  </a> <!-- EmptyCartPurchase -->
+                  <span class="method-name">EmptyCartPurchase</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at org.GreenKartAutomation.TestClasses.PurchaseOrderTests.EmptyCartPurchase(PurchaseOrderTests.java:44)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test to verify empty order)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PurchaseWithoutCountry">
+                  </a> <!-- PurchaseWithoutCountry -->
+                  <span class="method-name">PurchaseWithoutCountry</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at org.GreenKartAutomation.TestClasses.PurchaseOrderTests.PurchaseWithoutCountry(PurchaseOrderTests.java:33)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test to verify ordering without address)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-GreenKartTesting-class-failed -->
+          <div class="suite-GreenKartTesting-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.GreenKartAutomation.TestClasses.TopDealsTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="PageSize">
+                  </a> <!-- PageSize -->
+                  <span class="method-name">PageSize</span>
+                  <em>
+(Test to verify dynamic page size)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-GreenKartTesting-class-passed -->
+          <div class="suite-GreenKartTesting-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.GreenKartAutomation.TestClasses.AddToCartTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddingToCart">
+                  </a> <!-- AddingToCart -->
+                  <span class="method-name">AddingToCart</span>
+                  <em>
+(Test to verify add to cart functionality)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EmptyCartText">
+                  </a> <!-- EmptyCartText -->
+                  <span class="method-name">EmptyCartText</span>
+                  <em>
+(Test to verify text for empty cart)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FooterText">
+                  </a> <!-- FooterText -->
+                  <span class="method-name">FooterText</span>
+                  <em>
+(Test to verify footer text)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ItemCount">
+                  </a> <!-- ItemCount -->
+                  <span class="method-name">ItemCount</span>
+                  <em>
+(Test to verify cart items count)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PageTitle">
+                  </a> <!-- PageTitle -->
+                  <span class="method-name">PageTitle</span>
+                  <em>
+(Test to verify page title)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-GreenKartTesting-class-passed -->
+          <div class="suite-GreenKartTesting-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.GreenKartAutomation.TestClasses.PromoCodeTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="EmptyPromoCodeDiscount">
+                  </a> <!-- EmptyPromoCodeDiscount -->
+                  <span class="method-name">EmptyPromoCodeDiscount</span>
+                  <em>
+(Test to verify dicount for no promo-code)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EmptyStringPromoCode">
+                  </a> <!-- EmptyStringPromoCode -->
+                  <span class="method-name">EmptyStringPromoCode</span>
+                  <em>
+(Test to verify dicount for empty string promo-code)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="InvalidPromoCodeDiscount">
+                  </a> <!-- InvalidPromoCodeDiscount -->
+                  <span class="method-name">InvalidPromoCodeDiscount</span>
+                  <em>
+(Test to verify dicount for invalid promo-code)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidPromoCodeDiscount">
+                  </a> <!-- ValidPromoCodeDiscount -->
+                  <span class="method-name">ValidPromoCodeDiscount</span>
+                  <em>
+(Test to verify dicount for valid promo-code)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-GreenKartTesting-class-passed -->
+          <div class="suite-GreenKartTesting-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.GreenKartAutomation.TestClasses.PurchaseOrderTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AutoReturnHome">
+                  </a> <!-- AutoReturnHome -->
+                  <span class="method-name">AutoReturnHome</span>
+                  <em>
+(Test to verify auto return to home page after successful order)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PositivePurchase">
+                  </a> <!-- PositivePurchase -->
+                  <span class="method-name">PositivePurchase</span>
+                  <em>
+(Test to verify plcing order with valid details)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PurchaseWithoutTermCondition">
+                  </a> <!-- PurchaseWithoutTermCondition -->
+                  <span class="method-name">PurchaseWithoutTermCondition</span>
+                  <em>
+(Test to verify ordering without T&C)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-GreenKartTesting-class-passed -->
+        </div> <!-- panel GreenKartTesting -->
+        <div panel-name="test-xml-GreenKartTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\All Desktop folders\Git Push\GreenKartAutomation\TestNG_Runner_XML\GreenKartFunctionalTesting.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;GreenKartTesting&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;org.GreenKartAutomation.TestComponents.Listeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;End2End_PurchaseOrder&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;org.GreenKartAutomation.TestClasses.PurchaseOrderTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- End2End_PurchaseOrder --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TopDeals&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;org.GreenKartAutomation.TestClasses.TopDealsTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TopDeals --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;PromoCode&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;org.GreenKartAutomation.TestClasses.PromoCodeTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- PromoCode --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;AddToCart&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;org.GreenKartAutomation.TestClasses.AddToCartTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- AddToCart --&gt;
+&lt;/suite&gt; &lt;!-- GreenKartTesting --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-GreenKartTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for GreenKartTesting</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">End2End_PurchaseOrder (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TopDeals (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">PromoCode (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">AddToCart (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-GreenKartTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for GreenKartTesting</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-GreenKartTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for GreenKartTesting</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_GreenKartTesting');
+function tableData_GreenKartTesting() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(18);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'AutoReturnHome')
+data.setCell(0, 2, 'org.GreenKartAutomation.TestClasses.PurchaseOrderTests')
+data.setCell(0, 3, 21130);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'PurchaseWithoutTermCondition')
+data.setCell(1, 2, 'org.GreenKartAutomation.TestClasses.PurchaseOrderTests')
+data.setCell(1, 3, 15392);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'PositivePurchase')
+data.setCell(2, 2, 'org.GreenKartAutomation.TestClasses.PurchaseOrderTests')
+data.setCell(2, 3, 15022);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'PurchaseWithoutCountry')
+data.setCell(3, 2, 'org.GreenKartAutomation.TestClasses.PurchaseOrderTests')
+data.setCell(3, 3, 14793);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'InvalidPromoCodeDiscount')
+data.setCell(4, 2, 'org.GreenKartAutomation.TestClasses.PromoCodeTests')
+data.setCell(4, 3, 11182);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'ValidPromoCodeDiscount')
+data.setCell(5, 2, 'org.GreenKartAutomation.TestClasses.PromoCodeTests')
+data.setCell(5, 3, 11101);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'EmptyCartPurchase')
+data.setCell(6, 2, 'org.GreenKartAutomation.TestClasses.PurchaseOrderTests')
+data.setCell(6, 3, 7658);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'ItemCount')
+data.setCell(7, 2, 'org.GreenKartAutomation.TestClasses.AddToCartTests')
+data.setCell(7, 3, 7097);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'EmptyStringPromoCode')
+data.setCell(8, 2, 'org.GreenKartAutomation.TestClasses.PromoCodeTests')
+data.setCell(8, 3, 6126);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'EmptyPromoCodeDiscount')
+data.setCell(9, 2, 'org.GreenKartAutomation.TestClasses.PromoCodeTests')
+data.setCell(9, 3, 6020);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'RefreshCart')
+data.setCell(10, 2, 'org.GreenKartAutomation.TestClasses.AddToCartTests')
+data.setCell(10, 3, 5482);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'AddingToCart')
+data.setCell(11, 2, 'org.GreenKartAutomation.TestClasses.AddToCartTests')
+data.setCell(11, 3, 3902);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'EmptyCartText')
+data.setCell(12, 2, 'org.GreenKartAutomation.TestClasses.AddToCartTests')
+data.setCell(12, 3, 1674);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'Discounting')
+data.setCell(13, 2, 'org.GreenKartAutomation.TestClasses.TopDealsTests')
+data.setCell(13, 3, 1590);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'PageSize')
+data.setCell(14, 2, 'org.GreenKartAutomation.TestClasses.TopDealsTests')
+data.setCell(14, 3, 546);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'EmptyCartCheckout')
+data.setCell(15, 2, 'org.GreenKartAutomation.TestClasses.AddToCartTests')
+data.setCell(15, 3, 95);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'FooterText')
+data.setCell(16, 2, 'org.GreenKartAutomation.TestClasses.AddToCartTests')
+data.setCell(16, 3, 24);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'PageTitle')
+data.setCell(17, 2, 'org.GreenKartAutomation.TestClasses.AddToCartTests')
+data.setCell(17, 3, 9);
+window.suiteTableData['GreenKartTesting']= { tableData: data, tableDiv: 'times-div-GreenKartTesting'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-GreenKartTesting">
+              </div> <!-- times-div-GreenKartTesting -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-GreenKartTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for GreenKartTesting</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-GreenKartTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-GreenKartTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.GreenKartAutomation.TestClasses.PurchaseOrderTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">LaunchGreenkart</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AutoReturnHome</span>
+                <span class="method-start">3355 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">24489 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">LaunchGreenkart</span>
+                <span class="method-start">25720 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">EmptyCartPurchase</span>
+                <span class="method-start">28316 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">36164 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">LaunchGreenkart</span>
+                <span class="method-start">37440 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PositivePurchase</span>
+                <span class="method-start">40425 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">55448 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">LaunchGreenkart</span>
+                <span class="method-start">56767 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">PurchaseWithoutCountry</span>
+                <span class="method-start">60950 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">75942 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">LaunchGreenkart</span>
+                <span class="method-start">77119 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PurchaseWithoutTermCondition</span>
+                <span class="method-start">80149 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">95542 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.GreenKartAutomation.TestClasses.TopDealsTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">LaunchGreenkart</span>
+                <span class="method-start">97080 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Discounting</span>
+                <span class="method-start">99603 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">101326 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">LaunchGreenkart</span>
+                <span class="method-start">102520 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PageSize</span>
+                <span class="method-start">105085 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">105632 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.GreenKartAutomation.TestClasses.PromoCodeTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">LaunchGreenkart</span>
+                <span class="method-start">106872 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">EmptyPromoCodeDiscount</span>
+                <span class="method-start">109309 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">115329 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">LaunchGreenkart</span>
+                <span class="method-start">116560 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">EmptyStringPromoCode</span>
+                <span class="method-start">118854 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">124981 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">LaunchGreenkart</span>
+                <span class="method-start">126230 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">InvalidPromoCodeDiscount</span>
+                <span class="method-start">128722 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">139905 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">LaunchGreenkart</span>
+                <span class="method-start">141121 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ValidPromoCodeDiscount</span>
+                <span class="method-start">143396 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">154498 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.GreenKartAutomation.TestClasses.AddToCartTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">LaunchGreenkart</span>
+                <span class="method-start">155750 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AddingToCart</span>
+                <span class="method-start">158167 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">162070 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">LaunchGreenkart</span>
+                <span class="method-start">163347 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">EmptyCartCheckout</span>
+                <span class="method-start">165688 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">165986 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">LaunchGreenkart</span>
+                <span class="method-start">167202 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">EmptyCartText</span>
+                <span class="method-start">169509 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">171185 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">LaunchGreenkart</span>
+                <span class="method-start">172400 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">FooterText</span>
+                <span class="method-start">174718 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">174743 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">LaunchGreenkart</span>
+                <span class="method-start">175960 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ItemCount</span>
+                <span class="method-start">179096 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">186194 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">LaunchGreenkart</span>
+                <span class="method-start">187442 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PageTitle</span>
+                <span class="method-start">189874 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">189884 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">LaunchGreenkart</span>
+                <span class="method-start">191134 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">RefreshCart</span>
+                <span class="method-start">193718 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">199386 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

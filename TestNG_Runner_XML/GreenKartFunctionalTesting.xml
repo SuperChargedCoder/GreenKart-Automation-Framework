@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="GreenKartTesting"> <!-- parallel ="tests" thread-count="2" -->
+	<listeners>
+		<listener class-name="org.GreenKartAutomation.TestComponents.Listeners"></listener>
+	</listeners>
+  <test thread-count="5" name="End2End_PurchaseOrder">
+    <classes>
+      <class name="org.GreenKartAutomation.TestClasses.PurchaseOrderTests"/>
+    </classes>
+  </test> <!-- End2End_PurchaseOrder -->
+  <test thread-count="5" name="TopDeals">
+    <classes>
+      <class name="org.GreenKartAutomation.TestClasses.TopDealsTests"/>
+    </classes>
+  </test> <!-- TopDeals -->
+  <test thread-count="5" name="PromoCode">
+    <classes>
+      <class name="org.GreenKartAutomation.TestClasses.PromoCodeTests"/>
+    </classes>
+  </test> <!-- PromoCode -->
+  <test thread-count="5" name="AddToCart">
+    <classes>
+      <class name="org.GreenKartAutomation.TestClasses.AddToCartTests"/>
+    </classes>
+  </test> <!-- AddToCart -->
+</suite> <!-- GreenKartTesting -->
